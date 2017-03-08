@@ -1,4 +1,4 @@
-package main;
+package lab7;
 
 public class Employee {
 	String start;	
@@ -6,7 +6,7 @@ public class Employee {
 	String last;
 	String dep;
 	String num;
-	Employee(String vars)
+	public Employee(String vars)
 	{
 		start = vars;
 		String[] splitted = start.split("\\s+");
